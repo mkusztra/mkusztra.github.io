@@ -1,7 +1,7 @@
 body {
-	color: #E32700;
+	background-color: #E32700;
 }
 
-font {
+body-font {
 	font-family: Helvetica;
 }
