@@ -1,9 +1,13 @@
 body {
-	background-color: #E32700;
+	background-color: #fff;
 }
 
 
-h1 {
+h1, h4 {
 	font-family: "Helvetica";
-	font-color: #ffffff;
+	font-color: #a0a0a0;
+}
+
+hr {
+	color;
 }
