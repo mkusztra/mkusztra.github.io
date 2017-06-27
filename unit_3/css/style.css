@@ -9,7 +9,7 @@ body {
 
 p {
 	color: #fff;
-    margin-left: 120px;
+    padding-left: 120px;
 }
 
 h1, h4 {
@@ -27,6 +27,8 @@ hr {
 
 #contactID{
 	background-color: #ebff00;
+	color: #444848;
+	font-weight: "900";
 }
 
 #project1{
