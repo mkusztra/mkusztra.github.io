@@ -1,5 +1,5 @@
 body {
-	background-color: #fff;
+	background-color: #ebff00;
 	font-family: "Helvetica";
 	margin-top: 0px;
     margin-bottom: 20px;
@@ -36,4 +36,8 @@ hr {
 
 #project1{
 	background-color: #282828;
+}
+
+.paragraphclass {
+	color: white;
 }
