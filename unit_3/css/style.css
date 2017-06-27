@@ -1,5 +1,5 @@
 body {
-	background-color: #ebff00;
+	background-color: #fff;
 	font-family: "Helvetica";
 	margin-top: 100px;
     margin-bottom: 100px;
@@ -26,4 +26,12 @@ hr {
 
 #descriptionID{
 	color: #a0a0a0;
+}
+
+#contactID{
+	background-color: #ebff00;
+}
+
+#project1{
+	background-color: #282828;
 }
