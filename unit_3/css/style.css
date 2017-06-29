@@ -7,7 +7,6 @@ body {
 p {
 	background-color: #fff;
     padding-left: 15%;
-    padding-top: 50px;
 }
 
 
@@ -17,6 +16,7 @@ a {
 	font-size: 0.6em;
 	text-decoration: none;
 	text-transform: uppercase;
+	padding-right: 10px;
 }
 
 
@@ -24,49 +24,95 @@ ul {
 	list-style-type: none;
 }
 
+/* headshot image */
 
-hr {
-	color: #dcdcdc;
-	width: 1px;
+#headshot {
+	padding-top: 20px;
+	padding-left: 13%;
 }
 
+/* intro text */
 
-#slogan{
+#slogan {
 	color: #a0a0a0;
 	font-weight: 100;
-	font-size: 1.75em;
+	font-size: 1.55em;
 	padding-right: 300px;
 	background-color: white;
 }
 
-
-#project1{
-	background-color: #282828;
-	min-height: 600px;
-	width: 100%
+.name {
+	color: #282828;
 }
 
-
+/* yellow left nav */
 
 .floating-box {
-	display: block;
     float: left;
-    width: 70px;
+    width: 60px;
     height: 100%;
     background-color: #ebff00;
     position: fixed;
     padding-right: 10px;
 }
 
+/* Process | Visual tabs */
+
 .tab {
+	overflow: hidden;
 	padding-top: 20px;
 	text-align: center;
+	margin-bottom: 20px;
 }
 
-.subnav {
+
+.tablinks {
 	font-size: 12px;
 	color: #606060;
 	font-weight: 900;
 	text-transform: uppercase;
 	text-align: center;
 }
+
+.tabcontent {
+	min-height: 600px;
+	width: 100%;
+}
+
+#Process {
+	background-color: #282828;
+}
+
+#Visual {
+	background-color: #a0a0a0;
+}
+
+	/* javascript for tabs */
+
+	function openSubnav(evt, cityName) {
+    var i, tabcontent, tablinks;
+
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+} 
+
+
+
+
+
+
+
+
+
+
+
