@@ -1,46 +1,39 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+img {width:300px;} /* delete once you start styling your images */
 body {
     background-color: #fff;
 	font-family: "Helvetica";
 }
-
-
-p {
-	background-color: #fff;
-    padding-left: 15%;
-}
-
-
-a {
+nav a {
 	color: #444848;
+	display:inline-block;
 	font-weight: 900;
-	font-size: 0.6em;
 	text-decoration: none;
 	text-transform: uppercase;
-	padding-right: 10px;
+	padding:1em;
 }
 
 
 ul {
 	list-style-type: none;
+	margin-bottom: 2em;
 }
 
 /* headshot image */
 
-#headshot {
-	padding-top: 20px;
-	padding-left: 13%;
-}
 
 /* intro text */
 
 #slogan {
 	color: #a0a0a0;
 	font-weight: 100;
-	font-size: 1.55em;
-	padding-right: 300px;
-	background-color: white;
+	font-size: 1.5em;
 }
-
+.main-content {
+	float:right;
+	width:75%;
+	padding: 4em;
+}
 .name {
 	color: #282828;
 }
@@ -49,16 +42,12 @@ ul {
 	font-size: 13px;
 	color: #a0a0a0;
 }
-
-/* yellow left nav */
-
-.floating-box {
-    float: left;
-    width: 60px;
+nav {
+    width: 25%;
     height: 100%;
     background-color: #ebff00;
     position: fixed;
-    padding-right: 10px;
+    padding: 2em;
 }
 
 /* Process | Visual tabs */
@@ -72,7 +61,6 @@ ul {
 
 
 .tablinks {
-	font-size: 12px;
 	color: #606060;
 	font-weight: 900;
 	text-transform: uppercase;
@@ -83,17 +71,7 @@ ul {
 	min-height: 600px;
 	width: 100%;
 }
-
-#Process {
-	background-color: #282828;
-	background-image: "images/IMG_7003.JPG"
-}
-
-#Visual {
-	background-color: #a0a0a0;
-}
-
-	/* javascript for tabs */
+	/* javascript for tabs - goes inside a <script> in your html
 
 	function openSubnav(evt, cityName) {
     var i, tabcontent, tablinks;
