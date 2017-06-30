@@ -45,6 +45,11 @@ ul {
 	color: #282828;
 }
 
+.description {
+	font-size: 13px;
+	color: #a0a0a0;
+}
+
 /* yellow left nav */
 
 .floating-box {
@@ -81,6 +86,7 @@ ul {
 
 #Process {
 	background-color: #282828;
+	background-image: "images/IMG_7003.JPG"
 }
 
 #Visual {
