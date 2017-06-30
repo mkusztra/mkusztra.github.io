@@ -4,78 +4,73 @@
 	<title>Not Sure Yet</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
- 
-
-<!-- YELLOW LEFT NAV -->
-
-<body><div class="floating-box">
-<ul>
-<li><a href="mailto:martakusztra@gmail.com">EMAIL ME</a></li>
-<li><a href="url">LINK 2</a></li>
-<li><a href="url">LINK 3</a></li>
-<br>
-<br>
-<br>
-<br>
-<li><a href="url">LINK 4</a></li>
-<li><a href="url">LINK 5</a></li>
-<li><a href="url">LINK 6</a></li>
-</ul></div>
-
-
-<!-- HEADSHOT -->
-
-<div id="headshot">
-<svg width="150" height="150">
-  <circle cx="75" cy="75" r="60" fill="#cdcdcd" />
-</svg>
-</div>
-
-
-<!-- INTRO TEXT + INFOGRAPHICS -->
-
-<div>
-<p id="slogan"><span class="name">NameLast NameHere. </span>Copy here: not sure yet what it's going to be. But it needs to say how two distinct set of skills feed into one design outcome. Blah blah blah. Add one more line here with more detail.</p>
-
-	<img src="images/IMG_7003.JPG" alt="infographics1" style="width: 1000px">
-
-
-	<!-- PROJECTS -->
-
-	<!-- PROJECT 1 -->
-	<p class="description">/////// A short description of this particular project: when, what context, who's involved, the roles, etc.</p>
-
-	<div class="tab">
-	<button class="tablinks" onclick="openSubnav(event, 'Process')">Process</button>
-	<button class="tablinks" onclick="openSubnav(event, 'Visual')">Visual</button>
-	</div>
-
-	<div id="Process" class="tabcontent">1234</div>
-	<div id="Visual" class="tabcontent">5678</div>
-
-	<!-- PROJECT 2 -->
-	<p class="description">/////// A short description of this particular project: when, what context, who's involved, the roles, etc.</p>
-
-	<div class="tab">
-	<button class="tablinks" onclick="openSubnav(event, 'Process')">Process</button>
-	<button class="tablinks" onclick="openSubnav(event, 'Visual')">Visual</button>
-	</div>
-
-	<div id="Process" class="tabcontent">1234</div>
-	<div id="Visual" class="tabcontent">5678</div>
-
-		<!-- PROJECT 3 -->
-		<p class="description">/////// A short description of this particular project: when, what context, who's involved, the roles, etc.</p>
-
-	<div class="tab">
-	<button class="tablinks" onclick="openSubnav(event, 'Process')">Process</button>
-	<button class="tablinks" onclick="openSubnav(event, 'Visual')">Visual</button>
-	</div>
-
-	<div id="Process" class="tabcontent">1234</div>
-	<div id="Visual" class="tabcontent">5678</div>
-
-
-
+ <body>
+	 <nav class="floating-box">
+		<ul>
+			<li><a href="mailto:martakusztra@gmail.com">EMAIL ME</a></li>
+			<li><a href="url">LINK 2</a></li>
+			<li><a href="url">LINK 3</a></li>
+		</ul>
+		<ul>
+			<li><a href="url">LINK 4</a></li>
+			<li><a href="url">LINK 5</a></li>
+			<li><a href="url">LINK 6</a></li>
+		</ul>
+	 </nav>
+	 <div class="main-content">
+		<!-- HEADSHOT -->
+		<section id="headshot">
+			<svg width="150" height="150">
+			  <circle cx="75" cy="75" r="60" fill="#cdcdcd" />
+			</svg>
+			<h2>Marta Kusztra</h2>
+			<p>A little bit of bio text. A little bit of bio text. A little bit of bio text. A little bit of bio text.</p>
+		</section>
+		<!-- INTRO TEXT + INFOGRAPHICS -->
+		<section>
+			<p id="slogan"><span class="name">NameLast NameHere. </span>Copy here: not sure yet what it's going to be. But it needs to say how two distinct set of skills feed into one design outcome. Blah blah blah. Add one more line here with more detail.</p>
+			<img src="images/IMG_7003.JPG" alt="infographics1">
+		</section>
+		<!-- PROJECTS -->
+		<section id="projects">
+			<!-- PROJECT 1 -->
+			<section>
+				<h3>Project title</h3>
+				<p class="description">/////// A short description of this particular project: when, what context, who's involved, the roles, etc.</p>
+				<div class="tab">
+					<button class="tablinks" onclick="openSubnav(event, 'Process')">Process</button>
+					<button class="tablinks" onclick="openSubnav(event, 'Visual')">Visual</button>
+				</div>
+				<div class="project-display">
+					<img src="images/IMG_7003.JPG" alt="infographics1" class="tabcontent">
+					<!--<div id="Visual" class="tabcontent">5678</div> -->
+				</div>
+			</section>
+			<section>
+				<h3>Project title</h3>
+				<p class="description">/////// A short description of this particular project: when, what context, who's involved, the roles, etc.</p>
+				<div class="tab">
+					<button class="tablinks" onclick="openSubnav(event, 'Process')">Process</button>
+					<button class="tablinks" onclick="openSubnav(event, 'Visual')">Visual</button>
+				</div>
+				<div class="project-display">
+					<img src="images/IMG_7003.JPG" alt="infographics1" class="tabcontent">
+					<!--<div id="Visual" class="tabcontent">5678</div> -->
+				</div>
+			</section>
+			<section>
+				<h3>Project title</h3>
+				<p class="description">/////// A short description of this particular project: when, what context, who's involved, the roles, etc.</p>
+				<div class="tab">
+					<button class="tablinks" onclick="openSubnav(event, 'Process')">Process</button>
+					<button class="tablinks" onclick="openSubnav(event, 'Visual')">Visual</button>
+				</div>
+				<div class="project-display">
+					<img src="images/IMG_7003.JPG" alt="infographics1" class="tabcontent">
+					<!--<div id="Visual" class="tabcontent">5678</div> -->
+				</div>
+			</section>
+		</section>
+	 </div>
 </body>
 </html>
