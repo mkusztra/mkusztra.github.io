@@ -1,39 +1,69 @@
-* { margin:0; padding:0; box-sizing:border-box; }
-img {width:300px;} /* delete once you start styling your images */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet);
+
+img {
+	width: 100%;
+}
+
 body {
     background-color: #fff;
-	font-family: "Helvetica";
+	font-family: "Open Sans Condensed";
 }
+
+nav {
+    width: 7%;
+    min-width: 85px;
+    height: 100%;
+    background-color: #fff;
+    border-color: #cdcdcd;
+    border-width: 0px 1px 0px 0px;
+    border-style: dotted;
+    position: fixed;
+    padding: 4em 0.7em 2em 0.7em;
+}
+
 nav a {
 	color: #444848;
-	display:inline-block;
+	display: inline-block;
 	font-weight: 900;
 	text-decoration: none;
 	text-transform: uppercase;
-	padding:1em;
+	padding: 0.7em;
+	font-size: 0.65em;
 }
-
 
 ul {
 	list-style-type: none;
 	margin-bottom: 2em;
 }
 
-/* headshot image */
+h2 {
+	font-size: 1.5em;
+	font-weight: 600;
+	letter-spacing: -0.05em;
+}
 
-
-/* intro text */
+.ul-project {
+	font-color: #444444;
+	font-weight: 300;
+}
 
 #slogan {
 	color: #a0a0a0;
 	font-weight: 100;
 	font-size: 1.5em;
 }
+
 .main-content {
-	float:right;
-	width:75%;
+	float: right;
+	width: 93%;
 	padding: 4em;
+	background-color: #fff;
+	box-shadow: 4px 0px 3px #dcdcdc;
 }
+
 .name {
 	color: #282828;
 }
@@ -42,13 +72,15 @@ ul {
 	font-size: 13px;
 	color: #a0a0a0;
 }
-nav {
-    width: 25%;
-    height: 100%;
-    background-color: #ebff00;
-    position: fixed;
-    padding: 2em;
+
+.headshot {
+	border-color: #cdcdcd;
+    border-width: 0px 1px 0px 0px;
+    border-style: dotted;
+    padding: 0em 2em 0em 0em;
+
 }
+
 
 /* Process | Visual tabs */
 
@@ -71,24 +103,6 @@ nav {
 	min-height: 600px;
 	width: 100%;
 }
-	/* javascript for tabs - goes inside a <script> in your html
-
-	function openSubnav(evt, cityName) {
-    var i, tabcontent, tablinks;
-
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
-
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-
-    document.getElementById(cityName).style.display = "block";
-    evt.currentTarget.className += " active";
-} 
 
 
 

@@ -5,35 +5,35 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
  <body>
-
-
-	 <nav>
+	 <nav class="floating-box">
 		<ul>
 			<li><a href="mailto:martakusztra@gmail.com">EMAIL ME</a></li>
 			<li><a href="url">LINK 2</a></li>
 			<li><a href="url">LINK 3</a></li>
 		</ul>
-		<ul class="ul-project">
-			<li><a href="url">Project/1</a></li>
-			<li><a href="url">Project/2</a></li>
-			<li><a href="url">Project/3</a></li>
+		<ul>
+			<li><a href="url">LINK 4</a></li>
+			<li><a href="url">LINK 5</a></li>
+			<li><a href="url">LINK 6</a></li>
 		</ul>
 	 </nav>
-
-
 	 <div class="main-content">
-		<section>
-		<div id="headshot">
+		<!-- HEADSHOT -->
+		<section id="headshot">
 			<svg width="150" height="150">
-			  <circle cx="75" cy="75" r="60" fill="white" stroke="#cdcdcd" stroke-width="20px"/>
-			</svg> </div>
+			  <circle cx="75" cy="75" r="60" fill="#cdcdcd" />
+			</svg>
+			<h2>Marta Kusztra</h2>
+			<p>A little bit of bio text. A little bit of bio text. A little bit of bio text. A little bit of bio text.</p>
+		</section>
+		<!-- INTRO TEXT + INFOGRAPHICS -->
+		<section>
 			<p id="slogan"><span class="name">NameLast NameHere. </span>Copy here: not sure yet what it's going to be. But it needs to say how two distinct set of skills feed into one design outcome. Blah blah blah. Add one more line here with more detail.</p>
 			<img src="images/IMG_7003.JPG" alt="infographics1">
 		</section>
-
-		
+		<!-- PROJECTS -->
 		<section id="projects">
-	
+			<!-- PROJECT 1 -->
 			<section>
 				<h3>Project title</h3>
 				<p class="description">/////// A short description of this particular project: when, what context, who's involved, the roles, etc.</p>
@@ -47,7 +47,7 @@
 				</div>
 			</section>
 			<section>
-				<h2>Project title</h2>
+				<h3>Project title</h3>
 				<p class="description">/////// A short description of this particular project: when, what context, who's involved, the roles, etc.</p>
 				<div class="tab">
 					<button class="tablinks" onclick="openSubnav(event, 'Process')">Process</button>
@@ -59,7 +59,7 @@
 				</div>
 			</section>
 			<section>
-				<h2>Project title</h2>
+				<h3>Project title</h3>
 				<p class="description">/////// A short description of this particular project: when, what context, who's involved, the roles, etc.</p>
 				<div class="tab">
 					<button class="tablinks" onclick="openSubnav(event, 'Process')">Process</button>
@@ -72,27 +72,5 @@
 			</section>
 		</section>
 	 </div>
-
-	<script>
-
-	function openSubnav(evt, cityName) {
-    var i, tabcontent, tablinks;
-
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
-
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-
-    document.getElementById(cityName).style.display = "block";
-    evt.currentTarget.className += " active";
-} 
-
-</script>
-
 </body>
 </html>

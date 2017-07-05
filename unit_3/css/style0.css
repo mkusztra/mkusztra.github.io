@@ -1,0 +1,102 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+img {width:300px;} /* delete once you start styling your images */
+body {
+    background-color: #fff;
+	font-family: "Helvetica";
+}
+nav a {
+	color: #444848;
+	display:inline-block;
+	font-weight: 900;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding:1em;
+}
+
+
+ul {
+	list-style-type: none;
+	margin-bottom: 2em;
+}
+
+/* headshot image */
+
+
+/* intro text */
+
+#slogan {
+	color: #a0a0a0;
+	font-weight: 100;
+	font-size: 1.5em;
+}
+.main-content {
+	float:right;
+	width:75%;
+	padding: 4em;
+}
+.name {
+	color: #282828;
+}
+
+.description {
+	font-size: 13px;
+	color: #a0a0a0;
+}
+nav {
+    width: 25%;
+    height: 100%;
+    background-color: #ebff00;
+    position: fixed;
+    padding: 2em;
+}
+
+/* Process | Visual tabs */
+
+.tab {
+	overflow: hidden;
+	padding-top: 20px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+
+.tablinks {
+	color: #606060;
+	font-weight: 900;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.tabcontent {
+	min-height: 600px;
+	width: 100%;
+}
+	/* javascript for tabs - goes inside a <script> in your html
+
+	function openSubnav(evt, cityName) {
+    var i, tabcontent, tablinks;
+
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+} 
+
+
+
+
+
+
+
+
+
+
+
