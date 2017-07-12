@@ -1,0 +1,129 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow);
+@import url(https://fonts.googleapis.com/css?family=Nixie+One);
+@import url(https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre" rel="stylesheet);
+
+
+body {
+    background-color: #fff;
+	font-family: "Frank Ruhl Libre", sans-serif;
+}
+
+nav {
+    width: 7%;
+    min-width: 100px;
+    height: 100%;
+    background-color: #fff;
+    border-color: #fff;
+    border-width: 0px 1px 0px 0px;
+    border-style: dotted;
+    position: fixed;
+    padding: 4em 0.5em 2em 0.7em;
+    box-shadow: 3px 0px 7px #f0f0f0;
+}
+
+nav a {
+	color: #444848;
+	display: inline-block;
+	font-weight: 900;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0.7em;
+	font-size: 0.8em;
+	letter-spacing: 0.065em;
+	font-family: "PT Sans Narrow", sans-serif;
+	line-height: 1.2em;
+}
+
+ul {
+	list-style-type: none;
+	margin-bottom: 2em;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-weight: 600;
+	letter-spacing: -0.05em;
+}
+
+h3 {
+	color: #ff00a3;
+	font-weight: 300;
+	font-weight: 900;
+	text-transform: uppercase;
+	font-size: 0.8em;
+	letter-spacing: 0.065em;
+	font-family: "PT Sans Narrow", sans-serif;
+	line-height: 1.2em;
+	padding-top: 2em;
+}
+
+
+#slogan {
+	color: #a0a0a0;
+	font-weight: 100;
+	font-size: 1.75em;
+	margin-bottom: 4em;
+	margin-top: 2em;
+}
+
+.main-content {
+	float: right;
+	width: 93%;
+	padding: 4em;
+	background-color: #fff;
+}
+
+.content {
+	float: right;
+	padding: 4em;
+	background-color: #fff;
+	align-content: left;
+}
+
+.name {
+	color: #282828;
+}
+
+.description {
+	font-size: 1.2em;
+	font-weight: 300;
+	color: #a0a0a0;
+	padding-bottom: 2em;
+	padding-top: 0.4em;
+}
+
+.headshot {
+	border-color: #cdcdcd;
+    border-width: 0px 1px 0px 0px;
+    border-style: dotted;
+    padding: 0em 2em 0em 0em;
+
+}
+
+.display {
+	width: 100%;
+	padding-left: 0em;
+}
+
+#display1 {
+	background-image: url("images/MyImage-0743.jpg");
+	background-repeat: no-repeat;
+}
+
+
+
+large-offset-1 medium-offset-1
+ large-2 medium-2 small-12 columns end s
+
+
+
+
+
+
+
+
+
+

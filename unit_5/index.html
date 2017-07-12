@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Not Sure Yet</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+ <body>
+
+
+	 <nav>
+		<ul>
+			<li><a href="mailto:martakusztra@gmail.com">LINK 1</a></li>
+			<li><a href="url">LINK 2</a></li>
+			<li><a href="url">LINK 3</a></li>
+		</ul>
+		<ul>
+			<li><a href="url" class="project">:: Project :: one</a></li>
+			<li><a href="url" class="project">:: Project :: two</a></li>
+			<li><a href="url" class="project">:: Project :: three</a></li>
+		</ul>
+	 </nav>
+
+
+	 <div class="main-content">
+		<section>
+			<img src="images/person2.png" alt="silhouette" style="width:30px">
+			<svg width="150" height="150">
+			  <circle cx="75" cy="75" r="60" fill="white" stroke="#cdcdcd" stroke-width="20px"/>
+			</svg>
+			<p id="slogan"><span class="name">Lead in Here. </span>Five of the 10 most valuable companies in the world today—Apple, Alphabet, Amazon, Facebook, and Microsoft—derive much of their worth from their multisided platforms (MSPs), which facilitate interactions or transactions between parties. Many MSPs are more valuable than companies in the same industries that provide only products or services: For instance, Airbnb is now worth more than Marriott, the world’s largest hotel chain.</p>
+		</section>
+
+		<img src="lines.png" alt="intersection" style="width:100px">
+
+
+		<section id="projects">
+	
+			<section>
+				<h3>:: Project title</h3>
+				<p class="description">A short description of this particular project: when, what context, who's involved, the roles, etc.</p>
+				<img src="images/MyImage-0743.jpg" alt="project 3" style="width:100%">
+			</section>
+
+			<section>
+				<h3>:: Project title</h3>
+				<p class="description"><span color="000">A short description of </span>this particular project: when, what context, who's involved, the roles, etc.</p>
+				<div class="project-display">
+				</div>
+			</section>
+
+			<section>
+				<h3>Project title</h3>
+				<p class="description">/////// A short description of this particular project: when, what context, who's involved, the roles, etc.</p>
+				<div>
+					<img src="images/MyImage-0743.jpg" alt="project 3" style="width:100%" class="display">
+				</div>
+			</section>
+
+		</section>
+	 </div>
+
+	<script>
+
+	function openSubnav(evt, cityName) {
+    var i, tabcontent, tablinks;
+
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+} 
+
+</script>
+
+</body>
+</html>

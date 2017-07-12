@@ -6,10 +6,6 @@
 @import url(https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre" rel="stylesheet);
 
 
-img {
-	width: 100%;
-}
-
 body {
     background-color: #fff;
 	font-family: "Frank Ruhl Libre", sans-serif;
@@ -17,14 +13,15 @@ body {
 
 nav {
     width: 7%;
-    min-width: 85px;
+    min-width: 100px;
     height: 100%;
     background-color: #fff;
-    border-color: #cdcdcd;
+    border-color: #fff;
     border-width: 0px 1px 0px 0px;
     border-style: dotted;
     position: fixed;
-    padding: 4em 0.7em 2em 0.7em;
+    padding: 4em 0.5em 2em 0.7em;
+    box-shadow: 3px 0px 7px #f0f0f0;
 }
 
 nav a {
@@ -34,9 +31,10 @@ nav a {
 	text-decoration: none;
 	text-transform: uppercase;
 	padding: 0.7em;
-	font-size: 0.75em;
-	letter-spacing: 0.1em;
+	font-size: 0.8em;
+	letter-spacing: 0.065em;
 	font-family: "PT Sans Narrow", sans-serif;
+	line-height: 1.2em;
 }
 
 ul {
@@ -50,15 +48,25 @@ h2 {
 	letter-spacing: -0.05em;
 }
 
-.ul-project {
-	font-color: #444444;
+h3 {
+	color: #ff00a3;
 	font-weight: 300;
+	font-weight: 900;
+	text-transform: uppercase;
+	font-size: 0.8em;
+	letter-spacing: 0.065em;
+	font-family: "PT Sans Narrow", sans-serif;
+	line-height: 1.2em;
+	padding-top: 2em;
 }
+
 
 #slogan {
 	color: #a0a0a0;
 	font-weight: 100;
-	font-size: 1.625em;
+	font-size: 1.75em;
+	margin-bottom: 4em;
+	margin-top: 2em;
 }
 
 .main-content {
@@ -66,7 +74,13 @@ h2 {
 	width: 93%;
 	padding: 4em;
 	background-color: #fff;
-	box-shadow: 4px 0px 3px #dcdcdc;
+}
+
+.content {
+	float: right;
+	padding: 4em;
+	background-color: #fff;
+	align-content: left;
 }
 
 .name {
@@ -74,8 +88,11 @@ h2 {
 }
 
 .description {
-	font-size: 13px;
+	font-size: 1.2em;
+	font-weight: 300;
 	color: #a0a0a0;
+	padding-bottom: 2em;
+	padding-top: 0.4em;
 }
 
 .headshot {
@@ -86,29 +103,20 @@ h2 {
 
 }
 
-
-/* Process | Visual tabs */
-
-.tab {
-	overflow: hidden;
-	padding-top: 20px;
-	text-align: center;
-	margin-bottom: 20px;
-}
-
-
-.tablinks {
-	color: #606060;
-	font-weight: 900;
-	text-transform: uppercase;
-	text-align: center;
-}
-
-.tabcontent {
-	min-height: 600px;
+.display {
 	width: 100%;
+	padding-left: 0em;
 }
 
+#display1 {
+	background-image: url("images/MyImage-0743.jpg");
+	background-repeat: no-repeat;
+}
+
+
+
+large-offset-1 medium-offset-1
+ large-2 medium-2 small-12 columns end s
 
 
 
