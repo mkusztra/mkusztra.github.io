@@ -1,0 +1,15 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow);
+@import url(https://fonts.googleapis.com/css?family=Nixie+One);
+@import url(https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre" rel="stylesheet);
+
+
+body {
+    background-color: #606060;
+    background-image: url(img/59060007.jpg) no-repeat center fixed; 
+    background-size: cover;
+	font-family: "Frank Ruhl Libre", sans-serif;
+}
+
