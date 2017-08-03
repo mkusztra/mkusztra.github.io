@@ -15,8 +15,8 @@ body {
 
 nav {
     width: 8%;
-    max-width: 200px;
-    min-width: 150px;
+    max-width: 300px;
+    min-width: 250px;
     height: 100%;
     background-color: #fff;
 	border-right: 1px #cdcdcd dotted;
@@ -64,7 +64,7 @@ a:hover {
 	font-weight: 900;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-size: 2em;
+	font-size: 1em;
 	letter-spacing: 0.065em;
 	font-family: "PT Sans Narrow", sans-serif;
 	margin-bottom: 2em;
@@ -125,13 +125,13 @@ a:hover {
 	color: #a0a0a0;
 	font-weight: 900;
 	text-transform: uppercase;
-	font-size: 8em;
+	font-size: 12em;
 	letter-spacing: 0em;
 	font-family: "PT Sans Narrow", sans-serif;
 }
 
 .project-description {
-	font-size: 1.2em;
+	font-size: 40px;
 	color: #444848;
 	font-weight: 300;
 	padding-bottom: 1em;
