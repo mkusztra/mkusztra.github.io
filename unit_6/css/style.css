@@ -84,6 +84,7 @@ a:hover {
     height: 200px;
     background-color: #a0a0a0;
     float: left;
+    margin-bottom: 100px;
 }
 
 #right {
@@ -93,6 +94,7 @@ a:hover {
     margin-top: 300px;
     background-color: #282828;
     float: left;
+    margin-bottom: 100px;
 }
 
 .clearfix:after {
@@ -106,7 +108,6 @@ a:hover {
 
 .project {
     padding-right: 20px;
-    margin-top: 200px;
     margin-left: 15%;
     width: 81%;
     background-color: #fff;
@@ -125,7 +126,7 @@ a:hover {
 	color: #a0a0a0;
 	font-weight: 900;
 	text-transform: uppercase;
-	font-size: 8em;
+	font-size: 6em;
 	letter-spacing: 0em;
 	font-family: "PT Sans Narrow", sans-serif;
 }
