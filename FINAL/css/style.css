@@ -1,0 +1,223 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow);
+@import url(https://fonts.googleapis.com/css?family=Nixie+One);
+@import url(https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre" rel="stylesheet);
+
+
+body {
+	background-color: #fff;
+	font-family: "Frank Ruhl Libre", sans-serif;
+	font-size: 16px;
+}
+
+nav {
+    width: 8%;
+    max-width: 200px;
+    min-width: 80px;
+    height: 100%;
+    background-color: #fff;
+	border-right: 1px #cdcdcd dotted;
+    position: fixed;
+    padding-top: 3em;
+}
+
+.nav2 {
+	margin-top: 14em;
+}
+
+a {
+	color: #444848;
+	display: inline-block;
+	font-weight: 900;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-left: 20px;
+	padding-right: 2em;
+	padding-bottom: 1.2em;
+	font-size: 0.8em;
+	letter-spacing: 0.065em;
+	font-family: "PT Sans Narrow", sans-serif;
+	line-height: 1.2em;
+}
+
+a:hover {
+	color: #a0a0a0;
+}
+
+.anav2 {
+	font-weight: 900;
+	margin-bottom: 4em;
+}
+
+
+
+
+#two-column {
+	width: 95%;
+	margin-left: 12%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+#left {
+    margin-right: 20px;
+    width: 15%;
+    float: left;
+}
+
+.skills {
+	color: #fff;
+	background-color: #e4001e;
+	margin: 0.2em;
+	padding: 0.2em 1.3em 0.1em 0.3em;
+	font-size: .9em;
+	font-family: "PT Sans Narrow", sans-serif;
+	line-height: 1.2em;
+	display: inline-block;
+	letter-spacing: 0.05em;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+
+.right {
+    width: 82%;
+    float: right;
+    margin-right: 10px;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+
+
+
+
+.project {
+    padding-right: 20px;
+    margin-left: 15%;
+    width: 81%;
+    background-color: #fff;
+    float: none;
+    margin-bottom: 50px;
+}
+
+.project-inside {
+	margin-top: 20px;
+    background-color: #fff;
+    float: none;
+}
+
+.project-inside2 {
+	margin-top: 20px;
+    height: 600px;
+    background-color: #cdcdcd;
+    float: none;
+}
+
+.project-title {
+	color: #a0a0a0;
+	font-weight: 900;
+	text-transform: uppercase;
+	font-size: 6em;
+	letter-spacing: 0em;
+	font-family: "PT Sans Narrow", sans-serif;
+}
+
+.project-description {
+	font-size: 1em;
+	color: #444848;
+	font-weight: 300;
+	margin-right: 30%;
+	letter-spacing: 0em;
+	font-family: "PT Sans Narrow", sans-serif;
+	line-height: 1.5em;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+	nav {
+		visibility: hidden;
+	}
+	#left {
+		float: none;
+		width: auto;
+		margin: 100px 20px 20px 20px;
+		padding-right: 20px;
+		border-right: none;
+		border-bottom: 1px #cdcdcd dotted;
+	}
+
+	#right { 
+		float: none; 
+		width: auto;
+		margin: 0 20px 50px 20px;
+	}
+
+	.project-title {
+		font-size: 3em;
+	}
+
+	.project-description {
+		font-size: 1em;
+		margin-right: 10%;
+		margin-left: 0px;
+		letter-spacing: 0.01em;
+	}
+
+	.project {
+    	padding-right: 0px;
+    	margin-left: 20px;
+    	margin-right: 20px;
+    	width: auto;
+    	margin-bottom: 60px;
+	}
+
+	.project-inside {
+		margin-top: 20px;
+    	background-color: #fff;
+    	float: none;
+	}
+
+	.project-inside2 {
+	margin-top: 20px;
+    height: 600px;
+    background-color: #cdcdcd;
+    float: none;
+}
+
+}
+
+@media only screen and (max-width: 1085px) {
+	#left {
+		float: none;
+		width: auto;
+		margin-left: 15%;
+		margin-right:20px;
+		padding-right: 20px;
+		border-right: none;
+		border-bottom: 1px #cdcdcd dotted;
+	}
+
+	#right { 
+		float: none; 
+		width: auto;
+		margin-left: 15%;
+		margin-right:20px;
+	}}
+
+
+
+
+
+
